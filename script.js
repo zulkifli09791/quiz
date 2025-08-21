@@ -14,6 +14,10 @@ const questions = [
         options: ["bonyok", "sehat", "ninja masagenae"],
         answer: "bonyok"
     },
+    {
+        question: "Apa kepanjangan dari www", 
+        option: ["World wide web", " wide world web", "website world wide", "world wide website"], 
+        answer: "World wide web"
 ];
 
 let currentQuestionIndex = 0;
@@ -68,3 +72,4 @@ document.getElementById('next-btn').addEventListener('click', () => {
 
 // Mulai kuis saat halaman dimuat
 startQuiz();
+
